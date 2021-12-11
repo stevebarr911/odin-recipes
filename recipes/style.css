@@ -1,0 +1,54 @@
+.text-center {
+    text-align: center;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    padding: 1rem;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+}
+
+.recipe {
+    padding: 3rem;
+}
+
+.recipe img {
+    margin: auto;
+    box-shadow: 3px 3px #333;
+}
+
+.recipe a {
+    display: block;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.recipe-title {
+    font-size: 3rem;
+    text-align: center;
+}
